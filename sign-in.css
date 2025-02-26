@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left:50px ;
+      
+}
+.logo > .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family:Questrial;
+    letter-spacing: -2px;
+    font-family: questrial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > .logo-text{
+    width: 180px;
+    line-height: 35px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic Antique";
+}
+
+
+.sign-in-btn{
+    width: 105px;
+    height: 45px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: zen kaku gothic antique;
+    cursor: pointer;
+    border: 1.5px solid black;
+    background-color: transparent;
+    margin-right: 50px;
+}
+.sign-in-btn:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+.sign-up{
+    background-image: url("images/sign-up-bg.png");
+    width: 1520px;
+    height: 478px;
+    background-size: cover;
+    background-position: center;
+    font-family:zen kaku gothic antique;
+}
+.outer-div{
+    display: flex;
+    justify-content: center;
+}
+.content-div{
+    width: 1140px;
+    height: 750px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+.main-box{
+    height: 450px;
+    width: 535px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 61px 30px 40.5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.fname{
+    width: 360px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 11.85px 15.82px 6.34px;
+}
+.input-heading{
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 340px;
+    height: 30px;
+    font-size: 17px;
+    font-family:zen kaku gothic antique;
+    border: none;
+    outline: none;
+}
+.email{
+    width: 360px;
+    height: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 11.85px 15.82px 6.34px;
+}
+.password{
+    width: 360px;
+    height: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 11.85px 15.82px 6.34px;
+
+}
+.confirm-password{
+    width: 360px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 11.85px 15.82px 6.34px;
+}
+.check-box{
+    display: flex;
+    width: 393px;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-check{
+    accent-color: #000000;
+    margin: 0;
+    height: 23px;
+    width: 22.5px;
+    border: 1px solid #212121;
+}
+.terms{
+    font-size: 11px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+}
+.sign-up-btn{
+    width: 393px;
+    height: 63px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sign-up-btn:hover{
+    background-color: rgb(26, 26, 26);
+}
+.or-text{
+    font-size: 13px;
+}
+.socials{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.socials > img{
+    height: 40px;
+    width:40px;
+    cursor: pointer;
+}

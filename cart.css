@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.nav-bar{
+    height: 90px;
+    width: 100%;
+    background-color: #1db22c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left:50px ;
+      
+}
+.logo > .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family:Questrial;
+    letter-spacing: -2px;
+    font-family: questrial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > .logo-text{
+    width: 180px;
+    line-height: 35px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic Antique";
+}
+
+.nav-links{
+    display: flex;
+    margin-left:50px ;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 17px;
+    font-family: Poppins;
+}
+.nav-links a:hover{
+    color: white;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-right:50px ;
+}
+
+.register-btn,.sign-in-btn{
+    width: 105px;
+    height: 45px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: raleway;
+    cursor: pointer;
+}
+
+.register-btn{
+    background-color: black;
+    color: #1db22c;
+    border: black;
+}
+.sign-in-btn{
+    border: 2px solid black;
+    background-color: #1db22c;
+}
+.sign-in-btn:hover{
+    color: white;
+    background-color: #1db22c;
+}
+.register-btn:hover{
+    color: black;
+    background-color: #1db22c;
+    border: 2px solid black;
+    
+}
+
+/* cart section */
+.cart-heading{
+    font-weight: 500;
+    font-size: 38px;
+    margin: 21px 100px;
+}
+.cart-items{
+    margin: 0px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-cart{
+    display: flex;
+}
+.cart-img > img{
+    width: 206px;
+    height: 226px;
+}
+.cart-description{
+    margin-left: 40px;
+    width: 600px;
+}
+.cart-item-name{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 65px;
+}
+.quantity-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity{
+    background-color: white;
+    width: 165px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity > .qtn-btn{
+    border: none;
+    height: 67px;
+    width: 50px;
+    font-size: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+.quantity>div{
+    font-size: 28px;
+    font-weight: 600;
+}
+.cart-price{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: inter;
+}
+
+.cart-box{
+    width: 370px;
+    height: 247px;
+    border: 1px solid black;
+}
+.cart-box-items{
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 36px;
+    margin-bottom: 25px;
+}
+.subtotal-txt{
+    font-size: 25px;
+    font-weight: 800;
+}
+.buy-now{
+    width: 305px;
+    height: 56px;
+    background-color: #1db22c;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.continue-shop{
+    width: 305px;
+    height: 56px;
+    background-color: #1db22c;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+.buy-now:hover{
+    background-color: #177920;
+}
+.continue-shop:hover{
+    background-color: #177920;
+}
