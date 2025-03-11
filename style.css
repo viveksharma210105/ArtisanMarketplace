@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.nav-bar{
+.nav-bar {
     height: 90px;
     width: 100%;
     background-color: white;
@@ -12,28 +12,18 @@
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
-    margin-left:50px ;
-      
-}
-.logo > .circle{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    font-size: 22px;
-    font-family:Questrial;
-    letter-spacing: -2px;
-    font-family: questrial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 50px;
+
 }
 
-.logo > .logo-text{
+.logo>img {
+    height: 50px;
+}
+
+.logo>.logo-text {
     width: 180px;
     line-height: 35px;
     margin-left: 5px;
@@ -41,27 +31,31 @@
     font-family: "Zen Kaku Gothic Antique";
 }
 
-.nav-links{
+.nav-links {
     display: flex;
-    margin-left:50px ;
+    margin-left: 50px;
 }
-.nav-links a{
+
+.nav-links a {
     text-decoration: none;
     color: black;
     margin-right: 25px;
     font-size: 17px;
     font-family: Poppins;
 }
-.nav-links a:hover{
+
+.nav-links a:hover {
     color: #1db22c;
 }
-.buttons{
+
+.buttons {
     display: flex;
     gap: 20px;
-    margin-right:50px ;
+    margin-right: 50px;
 }
 
-.register-btn,.sign-in-btn{
+.register-btn,
+.sign-in-btn {
     width: 105px;
     height: 45px;
     line-height: 24px;
@@ -71,28 +65,31 @@
     cursor: pointer;
 }
 
-.register-btn{
+.register-btn {
     background-color: black;
     color: #1db22c;
     border: black;
 }
-.sign-in-btn{
+
+.sign-in-btn {
     border: 2px solid black;
     background-color: white;
 }
-.sign-in-btn:hover{
+
+.sign-in-btn:hover {
     color: white;
     background-color: #1db22c;
 }
-.register-btn:hover{
+
+.register-btn:hover {
     color: black;
     background-color: #1db22c;
     border: 2px solid black;
-    
+
 }
 
 /* Hero-section */
-.hero-section{
+.hero-section {
     height: 460px;
     background-color: #1db22c;
     color: white;
@@ -100,22 +97,26 @@
     display: flex;
 
 }
-.left{
+
+.left {
     margin-top: 55px;
     margin-left: 125px;
     margin-bottom: 53px;
     margin-right: 50px;
 }
-.tagline{
+
+.tagline {
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 17px;
 }
-.description{
+
+.description {
     font-size: 18px;
     margin-bottom: 20px;
 }
-.explore-btn{
+
+.explore-btn {
     width: 232px;
     height: 56px;
     background-color: white;
@@ -127,24 +128,26 @@
     font-weight: 500;
     cursor: pointer;
 }
-.explore-btn:hover{
+
+.explore-btn:hover {
     border: 2px solid white;
     color: white;
     background-color: #1db22c;
-    
+
 }
 
-.right > img{
+.right>img {
     width: 612px;
     margin-right: 125px;
     margin-top: 60px;
 }
 
 /* Category section */
-.category{
+.category {
     height: 400px;
 }
-.category-heading{
+
+.category-heading {
     height: 80px;
     text-align: center;
     display: flex;
@@ -155,21 +158,144 @@
     font-weight: 700;
     margin-top: 10px;
 }
-.category-items{
+
+.category-items {
     margin: 0px 125px;
     display: flex;
     justify-content: space-between;
 }
-.category-block{
+
+.category-block {
     width: 266px;
 }
-.category-img > img{
+
+.category-img>img {
     height: 266px;
     border-radius: 45px;
 }
-.category-name{
+
+.category-name {
     font-family: poppins;
     text-align: center;
     font-weight: 600;
     margin-top: 6px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #18641f;
+    /* Dark Background */
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-family: Poppins;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 128px;
+}
+
+.f-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.f-logo>img {
+    height: 50px;
+}
+
+.f-logo>.logo-text {
+    width: 180px;
+    line-height: 35px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic Antique";
+}
+
+.footer-logo p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin-right: 36px;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #4caf50;
+    /* Green Hover Effect */
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 18px;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.footer-links h4::after,
+.footer-contact h4::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #4caf50;
+    margin-top: 5px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-contact ul li {
+    margin-bottom: 16px;
+}
+
+.footer-links ul li a,
+.footer-contact ul li {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #4caf50;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #4caf50;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
